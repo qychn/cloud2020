@@ -10,14 +10,14 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class FlowLimitController {
 
-    @GetMapping("testA")
+    @GetMapping("/testA")
     public String testA(){
         //暂停毫秒
         //try {TimeUnit.MILLISECONDS.sleep(1000);}catch (InterruptedException e){e.printStackTrace();}
         return "---------A";
     }
 
-    @GetMapping("testB")
+    @GetMapping("/testB")
     public String testB(){
         log.info(Thread.currentThread().getName()+"\t"+"------testB");
         return "---------B";
