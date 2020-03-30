@@ -28,3 +28,7 @@
 /seata-account-service2003/target/
 /seata-order-service2003/target/
 /seata-storage-service2003/target/
+.idea
+.iml
+.class
+target
