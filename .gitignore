@@ -25,3 +25,6 @@
 /cloudalibaba-provider-payment9001/target/
 /cloudalibaba-provider-payment9002/target/
 /cloudalibaba-sentinel-service8401/target/
+/seata-account-service2003/target/
+/seata-order-service2003/target/
+/seata-storage-service2003/target/
